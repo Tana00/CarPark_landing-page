@@ -1,0 +1,40 @@
+/* @media (min-width: 992px) {
+  .container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+} */
+@media (min-width: 360px) {
+  body {
+    width: 100vw;
+  }
+  .container,
+  .container-fluid {
+    max-width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: auto;
+    padding-left: auto;
+  }
+  .navbar-expand-lg .navbar-collapse {
+    justify-content: flex-end !important;
+  }
+  .hero1 {
+    width: 456px;
+    height: 282px;
+    top: 20px;
+  }
+  .section4 img {
+    /* max-width: 30%; */
+  }
+}
+@media screen and (max-width: 640px) {
+  .container {
+    width: 100vw;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
